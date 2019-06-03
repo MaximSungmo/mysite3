@@ -18,8 +18,6 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
-import com.fasterxml.jackson.module.paramnames.ParameterNamesModule;
-
 @Configuration
 @EnableWebMvc
 public class MVCConfig extends WebMvcConfigurerAdapter {
