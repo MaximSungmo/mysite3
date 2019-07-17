@@ -16,6 +16,7 @@ public class UserController {
 	@Autowired
 	private UserService userService;
 	
+	
 	@ResponseBody
 	@RequestMapping("/checkemail")
 	public JSONResult checkEmail(

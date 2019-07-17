@@ -13,6 +13,7 @@
 		<welcome-file>default.jsp</welcome-file>
 	</welcome-file-list>
 
+	<!-- ContextLoader에서 다음의 Appconfig 위치를 참조하여 미리 DAO와 같은 AppConfig 생성 -->
 	<context-param>
 		<param-name>contextClass</param-name>
 		<param-value>org.springframework.web.context.support.AnnotationConfigWebApplicationContext</param-value>
